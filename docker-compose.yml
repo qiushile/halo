@@ -19,9 +19,9 @@ services:
       - SPRING_R2DBC_USERNAME=halo
       - SPRING_R2DBC_PASSWORD=openpostgresql
       - SPRING_SQL_INIT_PLATFORM=postgresql
-      - HALO_EXTERNAL_URL=http://blog.qiushile.cn/
-      - HALO_SECURITY_INITIALIZER_SUPERADMINUSERNAME=admin2
-      - HALO_SECURITY_INITIALIZER_SUPERADMINPASSWORD=Aa123456
+      - HALO_EXTERNAL_URL=http://blog.yourdomainname.com/
+      - HALO_SECURITY_INITIALIZER_SUPERADMINUSERNAME=admin
+      - HALO_SECURITY_INITIALIZER_SUPERADMINPASSWORD=P@ssw0rd
 
   halodb:
     image: postgres:latest
